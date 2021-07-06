@@ -482,7 +482,7 @@ class IMTPP:
             self.sess.graph.finalize()
 
     def train(self, training_data):
-        num_epochs = 1
+        num_epochs = 20
         train_event_in_seq = training_data['train_event_in_seq']
         train_time_in_seq = training_data['train_time_in_seq']
         train_time_miss_seq = training_data['train_time_miss_seq']
